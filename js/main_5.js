@@ -16,9 +16,10 @@ btnTongKySo.onclick = function () {
     let hangChuc = Math.floor(txtHaiChuSo / 10);
     let hangDonVi = txtHaiChuSo - hangChuc * 10;
     tong2KySo = hangChuc + hangDonVi;
-  }
-  // Đầu ra
-  let resultTongKySo = "Tổng 2 ký số là: " + tong2KySo;
-  let pResultTongKySo = document.getElementById("txtKetQua5");
-  pResultTongKySo.innerHTML = resultTongKySo;
+
+    // Đầu ra
+    let resultTongKySo = "Tổng 2 ký số là: " + tong2KySo;
+    let pResultTongKySo = document.getElementById("txtKetQua5");
+    pResultTongKySo.innerHTML = resultTongKySo;
+    }
 };
